@@ -1,0 +1,2274 @@
+<!doctype html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>کره ای</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/logo.jpg">
+
+  </head>
+ 
+  <head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- Demo styles -->
+    <style>
+      html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+
+    <head>
+      <style>
+      
+        .rating {
+          margin: 50px auto;
+          width: 100%;
+        }
+        .rating > * {
+          float: right;
+        }
+        @-webkit-keyframes pulse {
+          50% {
+            color: #15ff8a;
+            text-shadow: 0 0 15px #00ff89;
+          }
+        }
+        @keyframes pulse {
+          50% {
+            color: #15ff8a;
+            text-shadow: 0 0 15px #00ff89;
+          }
+        }
+        .rating label {
+          height: 10px;
+          width: 7%;
+          display: block;
+          position: relative;
+          cursor: pointer;
+        }
+        .rating label:nth-of-type(5):after {
+          -webkit-animation-delay: 0.25s;
+                  animation-delay: 0.25s;
+        }
+        .rating label:nth-of-type(4):after {
+          -webkit-animation-delay: 0.2s;
+                  animation-delay: 0.2s;
+        }
+        .rating label:nth-of-type(3):after {
+          -webkit-animation-delay: 0.15s;
+                  animation-delay: 0.15s;
+        }
+        .rating label:nth-of-type(2):after {
+          -webkit-animation-delay: 0.1s;
+                  animation-delay: 0.1s;
+        }
+        .rating label:nth-of-type(1):after {
+          -webkit-animation-delay: 0.05s;
+                  animation-delay: 0.05s;
+        }
+        .rating label:after {
+          -webkit-transition: all 0.4s ease-out;
+          transition: all 0.4s ease-out;
+          -webkit-font-smoothing: antialiased;
+          position: absolute;
+          content: "☆";
+          color: rgb(255, 0, 0);
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          text-align: center;
+          font-size: 18px;
+          -webkit-animation: 1s pulse ease;
+                  animation: 1s pulse ease;
+        }
+        .rating label:hover:after {
+          color: rgb(255, 255, 255);
+          text-shadow: 0 0 3px #fff;
+        }
+        .rating input {
+          display: none;
+        }
+        .rating input:checked + label:after,
+        .rating input:checked ~ label:after {
+          content: "★";
+          color: rgb(255, 208, 0);
+          text-shadow: 0 0 20px #fff;
+        }
+              
+       
+        </style>
+    </head>
+
+
+      </head>
+      <link rel="stylesheet" href="css/style.css">
+   </head>
+  <body>
+   
+   <div class="container-xxl">
+
+   
+   <div class="row d-lg-block d-none">
+           <div class="w-100">
+            <nav class="navbar bg-white d-flex w-100">
+                <div class="container-fluid justify-content-around ">
+                  <a class="navbar-brand w-20" width="25%">
+                      <img src="img/logo.jpg" width="80" height="70" alt="">
+                  </a>
+                  <form class="d-flex w-50 "  >
+                    <input class="form-control unset "  type="search" placeholder="جستجوی محصولات " >
+                    <div class="dropdown">
+                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                          انتخاب دسته بندی
+                        </button>
+                        <ul class="dropdown-menu -nav-payen-a" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#">بادام</a></li>
+                          <li><a class="dropdown-item" href="#">بادام زمینی</a></li>
+                          <li><a class="dropdown-item" href="#">پسته</a></li>
+                        </ul>
+                      </div>
+                    <button class="btn btn-warning" type="submit"><i class="bi bi-search"></i></button>
+                  </form>
+                 
+                  <div class=" "  >
+                    <div class="vr"></div>
+                    <a href="" style="text-decoration: unset; color: black;"> <i class="bi bi-bag-plus" style="font-size: large;"></i>  0 تومان</a>
+                    <div class="vr"></div>
+                    <a href="" style="text-decoration: unset; color: black;"> <i class="bi bi-person" style="font-size: large;"></i>  ورود / ثبت نام</a>
+                  </div>
+                </div>
+              </nav>
+           </div>
+
+           <!-- in ghesmat payen navbare hast -->
+
+
+           <div class="border-top border-bottom" >
+            <nav class="navbar navbar-expand-lg bg-white ">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse -nav-payen" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              آجیل و مغز
+                            </a>
+                            <ul class="dropdown-menu -nav-payen-a " aria-labelledby="navbarDropdownMenuLink">
+                              <li><a class="dropdown-item " href="#">پسته </a></li>
+                              <li><a class="dropdown-item " href="#"> فندوق</a></li>
+                              <li><a class="dropdown-item " href="#"> بادام</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              خشکبار
+                            </a>
+                            <ul class="dropdown-menu -nav-payen-a " aria-labelledby="navbarDropdownMenuLink">
+                              <li><a class="dropdown-item " href="#">خرما </a></li>
+                              <li><a class="dropdown-item " href="#">برگ آلو</a></li>
+                              <li><a class="dropdown-item " href="#">توت خشک</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              میوه خشک
+                            </a>
+                            <ul class="dropdown-menu -nav-payen-a" aria-labelledby="navbarDropdownMenuLink">
+                              <li><a class="dropdown-item " href="#">مخلوط </a></li>
+                              <li><a class="dropdown-item " href="#">ورقه ای</a></li>
+                              <li><a class="dropdown-item " href="#">حبه ای</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              مخلوط های کاربردی
+                            </a>
+                            <ul class="dropdown-menu -nav-payen-a" aria-labelledby="navbarDropdownMenuLink">
+                              <li><a class="dropdown-item " href="#">پذیرایی</a></li>
+                              <li><a class="dropdown-item " href="#">روزمره</a></li>
+                              <li><a class="dropdown-item " href="#">مناسبتی</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              مزه های آشنا
+                            </a>
+                            <ul class="dropdown-menu -nav-payen-a" aria-labelledby="navbarDropdownMenuLink">
+                              <li><a class="dropdown-item " href="#">خام</a></li>
+                              <li><a class="dropdown-item " href="#">مزه‌های نمکی</a></li>
+                              <li><a class="dropdown-item " href="#">مزه‌های ترش</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              مزه های عجیب
+                            </a>
+                            <ul class="dropdown-menu -nav-payen-a" aria-labelledby="navbarDropdownMenuLink">
+                              <li><a class="dropdown-item " href="#">روزمره</a></li>
+                              <li><a class="dropdown-item " href="#">خاص </a></li>
+                            </ul>
+                          </li>
+                      <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">لوازم کاربردی</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">بسته های کادویی</a>
+                      </li>
+                     
+                    </ul>
+                  </div>
+                </div>
+               
+                    <button class="btn btn-danger  mx-2" style="width: 15%;" > خدمات کسب وکار ها</button>
+               
+              </nav>
+
+           </div>
+       </div>
+
+
+
+       <!-- in ghesmat braye sm navbar hast -->
+
+
+
+       <div class="row d-lg-none d-block">
+        <div class="w-100">
+            <nav class="navbar navbar-expand-lg bg-white w-100">
+                <div class="container-fluid w-100">
+                 
+                 
+                  <button class="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"  ></span>
+                  </button>
+                  <div class="collapse navbar-collapse -nav-payen" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              آجیل و مغز
+                            </a>
+                            <ul class="dropdown-menu -nav-payen-a " aria-labelledby="navbarDropdownMenuLink">
+                              <li><a class="dropdown-item " href="#">پسته </a></li>
+                              <li><a class="dropdown-item " href="#"> فندوق</a></li>
+                              <li><a class="dropdown-item " href="#"> بادام</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              خشکبار
+                            </a>
+                            <ul class="dropdown-menu -nav-payen-a " aria-labelledby="navbarDropdownMenuLink">
+                              <li><a class="dropdown-item " href="#">خرما </a></li>
+                              <li><a class="dropdown-item " href="#">برگ آلو</a></li>
+                              <li><a class="dropdown-item " href="#">توت خشک</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              میوه خشک
+                            </a>
+                            <ul class="dropdown-menu -nav-payen-a" aria-labelledby="navbarDropdownMenuLink">
+                              <li><a class="dropdown-item " href="#">مخلوط </a></li>
+                              <li><a class="dropdown-item " href="#">ورقه ای</a></li>
+                              <li><a class="dropdown-item " href="#">حبه ای</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              مخلوط های کاربردی
+                            </a>
+                            <ul class="dropdown-menu -nav-payen-a" aria-labelledby="navbarDropdownMenuLink">
+                              <li><a class="dropdown-item " href="#">پذیرایی</a></li>
+                              <li><a class="dropdown-item " href="#">روزمره</a></li>
+                              <li><a class="dropdown-item " href="#">مناسبتی</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              مزه های آشنا
+                            </a>
+                            <ul class="dropdown-menu -nav-payen-a" aria-labelledby="navbarDropdownMenuLink">
+                              <li><a class="dropdown-item " href="#">خام</a></li>
+                              <li><a class="dropdown-item " href="#">مزه‌های نمکی</a></li>
+                              <li><a class="dropdown-item " href="#">مزه‌های ترش</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              مزه های عجیب
+                            </a>
+                            <ul class="dropdown-menu -nav-payen-a" aria-labelledby="navbarDropdownMenuLink">
+                              <li><a class="dropdown-item " href="#">روزمره</a></li>
+                              <li><a class="dropdown-item " href="#">خاص </a></li>
+                            </ul>
+                          </li>
+                      <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">لوازم کاربردی</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">بسته های کادویی</a>
+                      </li>
+                     
+                    </ul>
+                  </div>
+                  <img src="img/logo.jpg"width="50" height="50" alt="">
+                  <a class="navbar-brand " href="#"> 
+                    <i class="bi bi-person mx-1"></i>
+                    <i class="bi bi-search mx-1"></i>
+                    <i class="bi bi-bag-plus mx-1"></i>
+                  </a>
+                </div>
+               
+                    
+               
+              </nav>
+        </div>
+        <div class="border-top border-bottom  ">
+            <div class="d-flex justify-content-center w-100">
+                <button class="btn btn-danger"> خدمات کسب و کار ها</button>
+            </div>
+
+        </div>
+
+       </div>
+
+
+  <body>
+
+
+
+       <!-- in ghesmat header hast -->
+
+
+
+        <div class=" d-none d-lg-block my-3">
+                <div class="row d-flex justify-content-evenly  " style="height: 480px; width: 100%; ">
+                        <div class="w-75  ">
+                            <a href="" class="shadow"><img src="img/بنر-اصلی.webp" width="100%" height="100%" alt=""></a>
+                        </div>
+                        <div class="w-25 d-flex justify-content-between  flex-column ">
+                        <a href="" class="shadow" style="height: 48%;"> <img src="img/بنر-بالا-سمت-چپ.webp" width="100%" height="100%" alt=""></a>
+                        <a href="" class="shadow" style="height: 48%;"> <img src="img/بنر-پایین-سمت-چپ.webp" width="100%" height="100%" alt=""></a>
+                        </div>
+                </div>
+
+        </div>        
+
+
+        <!-- in ghesmat header hast sm -->
+
+        <div class=" d-lg-none d-block my-3">
+            <div class="row d-flex justify-content-evenly my-3 " style="height:100%; width: 100%; ">
+                    <div class="  ">
+                        <a href="" class="shadow"><img src="img/بنر-اصلی.webp" width="100%" height="100%" alt=""></a>
+                    </div>
+                   
+            </div>
+
+        </div> 
+
+
+       <!-- in ghesmat neveshte payene header hast -->
+        <div class="d-lg-block d-none">
+            <div class="row w-100 d-flex my-5">
+                <div class="-neveshte-khatdar d-flex justify-content-center">
+                 <h5> بارجیل و فروشگاه آنلاین آجیل و خشکبار با کیفیت</h5>
+                </div>
+            </div>
+        </div>
+      
+      <!-- in ghesmat neveshte payene header hast sm -->
+      <div class="d-lg-none d-block">
+        <div class="row w-100 d-flex my-5">
+            <div class=" d-flex justify-content-center">بارجیل و فروشگاه آنلاین آجیل و خشکبار با کیفیت</div>
+        </div>
+    </div>
+
+
+
+    <!-- in ghesmat brayae mojavez ha hast -->
+    <div class="d-lg-block d-none">
+        <div class="row w-100 d-flex justify-content-evenly border shadow rounded">
+            <div class=""style="width: 314px;  height: 200px;">
+                <div class="w-100 d-flex justify-content-between align-items-center flex-column" >
+                    <img src="img/ارسال-1.png" width="100" alt="">
+                    <h5>ارسال رایگان</h5>
+                    بارجیل هر محصولی را با هر قیمتی به هر نقطه‌ای از ایران بدون هزینه ارسال می فرستد
+                </div>
+            </div>
+            <div class=""style="width: 314px;  height: 200px;">
+                <div class="w-100 d-flex justify-content-between align-items-center flex-column" >
+                    <img src="img/تنوع.png" width="100" alt="">
+                    <h5>متنوع ترین خشکبار و آجیل</h5>
+                    بارجیل هر محصولی را با هر قیمتی به هر نقطه‌ای از ایران بدون هزینه ارسال می فرستد
+                </div>
+            </div>
+            <div class=""style="width: 314px;  height: 200px;">
+                <div class="w-100 d-flex justify-content-between align-items-center flex-column" >
+                    <img src="img/سالم.png" width="100" alt="">
+                    <h5>سالم و تازه</h5>
+                    بارجیل هر محصولی را با هر قیمتی به هر نقطه‌ای از ایران بدون هزینه ارسال می فرستد
+                </div>
+            </div>
+            <div class=""style="width: 314px;  height: 200px;">
+                <div class="w-100 d-flex justify-content-between align-items-center flex-column" >
+                    <img src="img/پشتیبانی-1.png" width="100" alt="">
+                    <h5>پشتیبانی 24 ساعته</h5>
+                    بارجیل هر محصولی را با هر قیمتی به هر نقطه‌ای از ایران بدون هزینه ارسال می فرستد
+                </div>
+            </div>
+           
+           
+        </div>
+    </div>
+    
+
+
+
+
+     <!-- in ghesmat brayae mojavez sm ha hast -->
+
+     
+     <!-- /tammom shode -->
+
+
+      <!-- in ghesmat neveshte ha hast -->
+
+
+      <div class="d-lg-block d-none my-2">
+        <div class="row w-100 d-flex my-5">
+            <div class="-neveshte-narenji d-flex justify-content-center">
+             <h5> با کیفیت  با تخفیف !</h5>
+            </div>
+        </div>
+    </div>
+
+
+
+     <!-- in ghesmat neveshte sm ha hast -->
+
+     <div class="d-lg-none d-block">
+      <div class="row w-100 d-flex my-5">
+          <div class=" d-flex justify-content-center"><h5> با کیفیت  با تخفیف !</h5></div>
+      </div>
+     </div>
+
+
+
+
+
+    <!-- in ghesmat ba kifyat ha hast -->
+
+         
+    
+
+
+          <div id="carouselExampleControls" class="d-lg-block d-none carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active carousel-item-start">
+              
+              
+                <div class="row d-flex justify-content-around">
+                      <div class="card my-2 col-sm-5" style="width: 18rem; height: 350px; overflow: hidden; border-radius: 16px;">
+                        <!-- <img src="img/خرما.webp" alt="..."> -->
+                        <div class="card-img-top -img-hover-khorma d-flex justify-content-between">
+                          
+                          <div class=""></div>
+                          <div class="d-flex  flex-column my-3 -sabad-kharid">
+                          <a href=""> <i class="bi bi-cart" style="font-size: 24px;"></i></a>
+                            <a href=""><i class="bi bi-search" style="font-size: 24px;"></i></a>
+                          </div>
+                        </div>
+                        <div class="card-body d-flex align-items-center justify-content-between flex-column"> 
+                          <a href=""><h5 class="card-title ">خرما پیارم ارگانیک</h5></a>
+                          <p class="card-text  " style="font-family: irancell; color: rgb(219, 124, 0);"> 25,000 -100,000تومان </p>
+                        
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="card my-2 col-sm-5" style="width: 18rem; height: 350px; overflow: hidden; border-radius: 16px;">
+                      <!-- <img src="img/خرما.webp" alt="..."> -->
+                      <div class="card-img-top -img-hover-khorma d-flex justify-content-between">
+                        
+                        <div class=""></div>
+                        <div class="d-flex  flex-column my-3 -sabad-kharid">
+                        <a href=""> <i class="bi bi-cart" style="font-size: 24px;"></i></a>
+                          <a href=""><i class="bi bi-search" style="font-size: 24px;"></i></a>
+                        </div>
+                      </div>
+                      <div class="card-body d-flex align-items-center justify-content-between flex-column"> 
+                        <a href=""><h5 class="card-title ">خرما پیارم ارگانیک</h5></a>
+                        <p class="card-text  " style="font-family: irancell; color: rgb(219, 124, 0);"> 25,000 -100,000تومان </p>
+                      
+                      </div>
+                  </div>
+
+
+
+
+
+                    <div class="card my-2 col-sm-5" style="width: 18rem; height: 350px; overflow: hidden; border-radius: 16px;">
+                      <!-- <img src="img/خرما.webp" alt="..."> -->
+                      <div class="card-img-top -img-hover-khorma d-flex justify-content-between">
+                        
+                        <div class="">
+                        </div>
+                        <div class="d-flex  flex-column my-3 -sabad-kharid">
+                        <a href=""> <i class="bi bi-cart" style="font-size: 24px;"></i></a>
+                          <a href=""><i class="bi bi-search" style="font-size: 24px;"></i></a>
+                        </div>
+                      </div>
+                      <div class="card-body d-flex align-items-center justify-content-between flex-column"> 
+                        <a href=""><h5 class="card-title ">خرما پیارم ارگانیک</h5></a>
+                        <p class="card-text  " style="font-family: irancell; color: rgb(219, 124, 0);"> 25,000 -100,000تومان </p>
+                      
+                      </div>
+                  </div>
+
+
+
+                  <div class="card my-2" style="width: 18rem; height: 350px; overflow: hidden; border-radius: 16px;">
+                    <!-- <img src="img/خرما.webp" alt="..."> -->
+                    <div class="card-img-top -img-hover-khorma d-flex justify-content-between">
+                      
+                      <div class="">
+                      </div>
+                      <div class="d-flex  flex-column my-3 -sabad-kharid">
+                      <a href=""> <i class="bi bi-cart" style="font-size: 24px;"></i></a>
+                        <a href=""><i class="bi bi-search" style="font-size: 24px;"></i></a>
+                      </div>
+                    </div>
+                    <div class="card-body d-flex align-items-center justify-content-between flex-column"> 
+                      <a href=""><h5 class="card-title ">خرما پیارم ارگانیک</h5></a>
+                      <p class="card-text  " style="font-family: irancell; color: rgb(219, 124, 0);"> 25,000 -100,000تومان </p>
+                    
+                    </div>
+                </div>
+                    
+                    
+                
+                    
+                    
+                    </div>
+
+
+              </div>
+              <div class="carousel-item carousel-item-next carousel-item-start">
+                
+                <div class="row d-flex justify-content-around">
+                  <div class="card my-2" style="width: 18rem; height: 350px; overflow: hidden; border-radius: 16px;">
+                    <!-- <img src="img/خرما.webp" alt="..."> -->
+                    <div class="card-img-top -img-hover-khorma d-flex justify-content-between">
+                      
+                      <div class="">
+                      </div>
+                      <div class="d-flex  flex-column my-3 -sabad-kharid">
+                      <a href=""> <i class="bi bi-cart" style="font-size: 24px;"></i></a>
+                        <a href=""><i class="bi bi-search" style="font-size: 24px;"></i></a>
+                      </div>
+                    </div>
+                    <div class="card-body d-flex align-items-center justify-content-between flex-column"> 
+                      <a href=""><h5 class="card-title ">خرما پیارم ارگانیک</h5></a>
+                      <p class="card-text  " style="font-family: irancell; color: rgb(219, 124, 0);"> 25,000 -100,000تومان </p>
+                    
+                    </div>
+                </div>
+
+
+                <div class="card my-2" style="width: 18rem; height: 350px; overflow: hidden; border-radius: 16px;">
+                  <!-- <img src="img/خرما.webp" alt="..."> -->
+                  <div class="card-img-top -img-hover-khorma d-flex justify-content-between">
+                    
+                    <div class="">
+                    </div>
+                    <div class="d-flex  flex-column my-3 -sabad-kharid">
+                    <a href=""> <i class="bi bi-cart" style="font-size: 24px;"></i></a>
+                      <a href=""><i class="bi bi-search" style="font-size: 24px;"></i></a>
+                    </div>
+                  </div>
+                  <div class="card-body d-flex align-items-center justify-content-between flex-column"> 
+                    <a href=""><h5 class="card-title ">خرما پیارم ارگانیک</h5></a>
+                    <p class="card-text  " style="font-family: irancell; color: rgb(219, 124, 0);"> 25,000 -100,000تومان </p>
+                  
+                  </div>
+              </div>
+
+
+
+              <div class="card my-2" style="width: 18rem; height: 350px; overflow: hidden; border-radius: 16px;">
+                <!-- <img src="img/خرما.webp" alt="..."> -->
+                <div class="card-img-top -img-hover-khorma d-flex justify-content-between">
+                  
+                  <div class="">
+                  </div>
+                  <div class="d-flex  flex-column my-3 -sabad-kharid">
+                  <a href=""> <i class="bi bi-cart" style="font-size: 24px;"></i></a>
+                    <a href=""><i class="bi bi-search" style="font-size: 24px;"></i></a>
+                  </div>
+                </div>
+                <div class="card-body d-flex align-items-center justify-content-between flex-column"> 
+                  <a href=""><h5 class="card-title ">خرما پیارم ارگانیک</h5></a>
+                  <p class="card-text  " style="font-family: irancell; color: rgb(219, 124, 0);"> 25,000 -100,000تومان </p>
+                
+                </div>
+            </div>
+
+            <div class="card my-2" style="width: 18rem; height: 350px; overflow: hidden; border-radius: 16px;">
+              <!-- <img src="img/خرما.webp" alt="..."> -->
+              <div class="card-img-top -img-hover-khorma d-flex justify-content-between">
+                
+                <div class="">
+                </div>
+                <div class="d-flex  flex-column my-3 -sabad-kharid">
+                <a href=""> <i class="bi bi-cart" style="font-size: 24px;"></i></a>
+                  <a href=""><i class="bi bi-search" style="font-size: 24px;"></i></a>
+                </div>
+              </div>
+              <div class="card-body d-flex align-items-center justify-content-between flex-column"> 
+                <a href=""><h5 class="card-title ">خرما پیارم ارگانیک</h5></a>
+                <p class="card-text  " style="font-family: irancell; color: rgb(219, 124, 0);"> 25,000 -100,000تومان </p>
+              
+              </div>
+          </div>
+
+
+
+
+
+
+
+              </div>
+              
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          </div>
+
+    <!-- </swiper> -->
+
+ 
+  
+
+      <!-- <swiper braye sm> -->
+
+                <!-- ////////////////////////////////////////////////// -->
+
+                <div class="d-block d-sm-none">
+
+                  <div class="swiper mySwipersm --parent my-4">
+                    <div class="swiper-wrapper">
+                    
+                    
+                      <div class="swiper-slide " style="width: 40%;">
+                        <div class="card" style="width: 18rem; height: 350px;">
+                          <!-- <img src="img/pichgoshti.png" width="100%" class="card-img-top" alt="..."> -->
+                          <div class="card-img-top w-100 -img-hover-khorma d-flex justify-content-between">
+                                                
+                              <div class=""></div>
+                              <div class="d-flex  flex-column my-3 -sabad-kharid">
+                                  <a href=""> <i class="bi bi-cart" style="font-size: 24px;"></i></a>
+                                  <a href=""><i class="bi bi-search" style="font-size: 24px;"></i></a>
+                              </div>
+                          </div>
+                          <div class="card-body">
+                            <div class="">
+        
+                              <p class="card-text" > <h5 style="font-family: yekan;">خرما رطب</h5> </p>
+                            </div>
+                            
+                            <div class="d-flex justify-content-around text-secondary">
+                              <span  style="font-family: yekan;">امتیاز محصول</span>
+                              <div class="text-warning"><i class="bi bi-star"></i></div>
+                            </div>
+                            <div class="d-flex justify-content-around text-secondary">
+                              <span  style="font-family: yekan;">120/000/000 تومان </span>
+                              <div class=" text-danger"><i class="bi bi-cart"></i></div>
+                            </div>
+                           
+                          </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide " style="width: 40%;">
+                        <div class="card" style="width: 18rem; height: 350px;">
+                          <!-- <img src="img/pichgoshti.png" width="100%" class="card-img-top" alt="..."> -->
+                          <div class="card-img-top w-100 -img-hover-khorma d-flex justify-content-between">
+                                                
+                              <div class=""></div>
+                              <div class="d-flex  flex-column my-3 -sabad-kharid">
+                                  <a href=""> <i class="bi bi-cart" style="font-size: 24px;"></i></a>
+                                  <a href=""><i class="bi bi-search" style="font-size: 24px;"></i></a>
+                              </div>
+                          </div>
+                          <div class="card-body">
+                            <div class="">
+        
+                              <p class="card-text" > <h5 style="font-family: yekan;">خرما رطب</h5> </p>
+                            </div>
+                            
+                            <div class="d-flex justify-content-around text-secondary">
+                              <span  style="font-family: yekan;">امتیاز محصول</span>
+                              <div class="text-warning"><i class="bi bi-star"></i></div>
+                            </div>
+                            <div class="d-flex justify-content-around text-secondary">
+                              <span  style="font-family: yekan;">120/000/000 تومان </span>
+                              <div class=" text-danger"><i class="bi bi-cart"></i></div>
+                            </div>
+                           
+                          </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide " style="width: 40%;">
+                        <div class="card" style="width: 18rem; height: 350px;">
+                          <!-- <img src="img/pichgoshti.png" width="100%" class="card-img-top" alt="..."> -->
+                          <div class="card-img-top w-100 -img-hover-khorma d-flex justify-content-between">
+                                                
+                              <div class=""></div>
+                              <div class="d-flex  flex-column my-3 -sabad-kharid">
+                                  <a href=""> <i class="bi bi-cart" style="font-size: 24px;"></i></a>
+                                  <a href=""><i class="bi bi-search" style="font-size: 24px;"></i></a>
+                              </div>
+                          </div>
+                          <div class="card-body">
+                            <div class="">
+        
+                              <p class="card-text" > <h5 style="font-family: yekan;">خرما رطب</h5> </p>
+                            </div>
+                            
+                            <div class="d-flex justify-content-around text-secondary">
+                              <span  style="font-family: yekan;">امتیاز محصول</span>
+                              <div class="text-warning"><i class="bi bi-star"></i></div>
+                            </div>
+                            <div class="d-flex justify-content-around text-secondary">
+                              <span  style="font-family: yekan;">120/000/000 تومان </span>
+                              <div class=" text-danger"><i class="bi bi-cart"></i></div>
+                            </div>
+                           
+                          </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide " style="width: 40%;">
+                        <div class="card" style="width: 18rem; height: 350px;">
+                          <!-- <img src="img/pichgoshti.png" width="100%" class="card-img-top" alt="..."> -->
+                          <div class="card-img-top w-100 -img-hover-khorma d-flex justify-content-between">
+                                                
+                              <div class=""></div>
+                              <div class="d-flex  flex-column my-3 -sabad-kharid">
+                                  <a href=""> <i class="bi bi-cart" style="font-size: 24px;"></i></a>
+                                  <a href=""><i class="bi bi-search" style="font-size: 24px;"></i></a>
+                              </div>
+                          </div>
+                          <div class="card-body">
+                            <div class="">
+        
+                              <p class="card-text" > <h5 style="font-family: yekan;">خرما رطب</h5> </p>
+                            </div>
+                            
+                            <div class="d-flex justify-content-around text-secondary">
+                              <span  style="font-family: yekan;">امتیاز محصول</span>
+                              <div class="text-warning"><i class="bi bi-star"></i></div>
+                            </div>
+                            <div class="d-flex justify-content-around text-secondary">
+                              <span  style="font-family: yekan;">120/000/000 تومان </span>
+                              <div class=" text-danger"><i class="bi bi-cart"></i></div>
+                            </div>
+                           
+                          </div>
+                        </div>
+                      </div>
+                    
+                      
+                     
+                    </div>
+                    <div class="next --next"><i class="bi bi-arrow-left-square-fill"></i></div>
+                    <div class="prev --prev"><i class="bi bi-arrow-right-square-fill"></i></div>
+                  </div>
+        
+        
+                </div>
+        
+        
+        
+
+
+
+
+
+      <!-- in ghesmat brayae text por frosh hast -->
+
+      
+
+      <div class="d-lg-block d-none my-2">
+        <div class="row w-100 d-flex my-5">
+            <div class="-neveshte-narenji d-flex justify-content-center">
+             <h5> محصولات پرفروش </h5>
+            </div>
+        </div>
+      </div>
+
+
+
+       <!-- in ghesmat brayae text por frosh sm hast -->
+
+
+       <div class="d-lg-none d-block">
+        <div class="row w-100 d-flex my-5">
+            <div class=" d-flex justify-content-center"><h5> محصولات پر فروش</h5></div>
+        </div>
+       </div>
+
+
+
+       <!-- in ghesmat vase slider frosh hast -->
+
+
+       <div id="carouselExampleControls" class="d-lg-block d-none carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active carousel-item-start">
+          
+          
+            <div class="row d-flex justify-content-around">
+                  <div class="card my-2 col-sm-5" style="width: 18rem; height: 350px; overflow: hidden; border-radius: 16px;">
+                    <!-- <img src="img/خرما.webp" alt="..."> -->
+                    <div class="card-img-top -img-hover-khorma d-flex justify-content-between">
+                      
+                      <div class=""></div>
+                      <div class="d-flex  flex-column my-3 -sabad-kharid">
+                      <a href=""> <i class="bi bi-cart" style="font-size: 24px;"></i></a>
+                        <a href=""><i class="bi bi-search" style="font-size: 24px;"></i></a>
+                      </div>
+                    </div>
+                    <div class="card-body d-flex align-items-center justify-content-between flex-column"> 
+                      <a href=""><h5 class="card-title ">خرما پیارم ارگانیک</h5></a>
+                      <p class="card-text  " style="font-family: irancell; color: rgb(219, 124, 0);"> 25,000 -100,000تومان </p>
+                    
+                    </div>
+                </div>
+
+
+
+
+                <div class="card my-2 col-sm-5" style="width: 18rem; height: 350px; overflow: hidden; border-radius: 16px;">
+                  <!-- <img src="img/خرما.webp" alt="..."> -->
+                  <div class="card-img-top -img-hover-khorma d-flex justify-content-between">
+                    
+                    <div class=""></div>
+                    <div class="d-flex  flex-column my-3 -sabad-kharid">
+                    <a href=""> <i class="bi bi-cart" style="font-size: 24px;"></i></a>
+                      <a href=""><i class="bi bi-search" style="font-size: 24px;"></i></a>
+                    </div>
+                  </div>
+                  <div class="card-body d-flex align-items-center justify-content-between flex-column"> 
+                    <a href=""><h5 class="card-title ">خرما پیارم ارگانیک</h5></a>
+                    <p class="card-text  " style="font-family: irancell; color: rgb(219, 124, 0);"> 25,000 -100,000تومان </p>
+                  
+                  </div>
+              </div>
+
+
+
+
+
+                <div class="card my-2 col-sm-5" style="width: 18rem; height: 350px; overflow: hidden; border-radius: 16px;">
+                  <!-- <img src="img/خرما.webp" alt="..."> -->
+                  <div class="card-img-top -img-hover-khorma d-flex justify-content-between">
+                    
+                    <div class="">
+                    </div>
+                    <div class="d-flex  flex-column my-3 -sabad-kharid">
+                    <a href=""> <i class="bi bi-cart" style="font-size: 24px;"></i></a>
+                      <a href=""><i class="bi bi-search" style="font-size: 24px;"></i></a>
+                    </div>
+                  </div>
+                  <div class="card-body d-flex align-items-center justify-content-between flex-column"> 
+                    <a href=""><h5 class="card-title ">خرما پیارم ارگانیک</h5></a>
+                    <p class="card-text  " style="font-family: irancell; color: rgb(219, 124, 0);"> 25,000 -100,000تومان </p>
+                  
+                  </div>
+              </div>
+
+
+
+              <div class="card my-2" style="width: 18rem; height: 350px; overflow: hidden; border-radius: 16px;">
+                <!-- <img src="img/خرما.webp" alt="..."> -->
+                <div class="card-img-top -img-hover-khorma d-flex justify-content-between">
+                  
+                  <div class="">
+                  </div>
+                  <div class="d-flex  flex-column my-3 -sabad-kharid">
+                  <a href=""> <i class="bi bi-cart" style="font-size: 24px;"></i></a>
+                    <a href=""><i class="bi bi-search" style="font-size: 24px;"></i></a>
+                  </div>
+                </div>
+                <div class="card-body d-flex align-items-center justify-content-between flex-column"> 
+                  <a href=""><h5 class="card-title ">خرما پیارم ارگانیک</h5></a>
+                  <p class="card-text  " style="font-family: irancell; color: rgb(219, 124, 0);"> 25,000 -100,000تومان </p>
+                
+                </div>
+            </div>
+                
+                
+            
+                
+                
+                </div>
+
+
+          </div>
+          <div class="carousel-item carousel-item-next carousel-item-start">
+            
+            <div class="row d-flex justify-content-around">
+              <div class="card my-2" style="width: 18rem; height: 350px; overflow: hidden; border-radius: 16px;">
+                <!-- <img src="img/خرما.webp" alt="..."> -->
+                <div class="card-img-top -img-hover-khorma d-flex justify-content-between">
+                  
+                  <div class="">
+                  </div>
+                  <div class="d-flex  flex-column my-3 -sabad-kharid">
+                  <a href=""> <i class="bi bi-cart" style="font-size: 24px;"></i></a>
+                    <a href=""><i class="bi bi-search" style="font-size: 24px;"></i></a>
+                  </div>
+                </div>
+                <div class="card-body d-flex align-items-center justify-content-between flex-column"> 
+                  <a href=""><h5 class="card-title ">خرما پیارم ارگانیک</h5></a>
+                  <p class="card-text  " style="font-family: irancell; color: rgb(219, 124, 0);"> 25,000 -100,000تومان </p>
+                
+                </div>
+            </div>
+
+
+            <div class="card my-2" style="width: 18rem; height: 350px; overflow: hidden; border-radius: 16px;">
+              <!-- <img src="img/خرما.webp" alt="..."> -->
+              <div class="card-img-top -img-hover-khorma d-flex justify-content-between">
+                
+                <div class="">
+                </div>
+                <div class="d-flex  flex-column my-3 -sabad-kharid">
+                <a href=""> <i class="bi bi-cart" style="font-size: 24px;"></i></a>
+                  <a href=""><i class="bi bi-search" style="font-size: 24px;"></i></a>
+                </div>
+              </div>
+              <div class="card-body d-flex align-items-center justify-content-between flex-column"> 
+                <a href=""><h5 class="card-title ">خرما پیارم ارگانیک</h5></a>
+                <p class="card-text  " style="font-family: irancell; color: rgb(219, 124, 0);"> 25,000 -100,000تومان </p>
+              
+              </div>
+          </div>
+
+
+
+          <div class="card my-2" style="width: 18rem; height: 350px; overflow: hidden; border-radius: 16px;">
+            <!-- <img src="img/خرما.webp" alt="..."> -->
+            <div class="card-img-top -img-hover-khorma d-flex justify-content-between">
+              
+              <div class="">
+              </div>
+              <div class="d-flex  flex-column my-3 -sabad-kharid">
+              <a href=""> <i class="bi bi-cart" style="font-size: 24px;"></i></a>
+                <a href=""><i class="bi bi-search" style="font-size: 24px;"></i></a>
+              </div>
+            </div>
+            <div class="card-body d-flex align-items-center justify-content-between flex-column"> 
+              <a href=""><h5 class="card-title ">خرما پیارم ارگانیک</h5></a>
+              <p class="card-text  " style="font-family: irancell; color: rgb(219, 124, 0);"> 25,000 -100,000تومان </p>
+            
+            </div>
+        </div>
+
+        <div class="card my-2" style="width: 18rem; height: 350px; overflow: hidden; border-radius: 16px;">
+          <!-- <img src="img/خرما.webp" alt="..."> -->
+          <div class="card-img-top -img-hover-khorma d-flex justify-content-between">
+            
+            <div class="">
+            </div>
+            <div class="d-flex  flex-column my-3 -sabad-kharid">
+            <a href=""> <i class="bi bi-cart" style="font-size: 24px;"></i></a>
+              <a href=""><i class="bi bi-search" style="font-size: 24px;"></i></a>
+            </div>
+          </div>
+          <div class="card-body d-flex align-items-center justify-content-between flex-column"> 
+            <a href=""><h5 class="card-title ">خرما پیارم ارگانیک</h5></a>
+            <p class="card-text  " style="font-family: irancell; color: rgb(219, 124, 0);"> 25,000 -100,000تومان </p>
+          
+          </div>
+      </div>
+
+
+
+
+
+
+
+          </div>
+          
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      </div>
+
+
+
+       <!-- in ghesmat vase slider frosh sm hast -->
+
+
+
+
+       <!-- <div class=" d-lg-none d-block  swiper mySwiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-free-mode swiper-backface-hidden">
+              <div class="swiper-wrapper" id="swiper-wrapper-cf29acb3e1f68109" aria-live="polite">
+                        <div class="swiper-slide swiper-slide-active " role="group" aria-label="1 / 9" style="width: 1279.67px; margin-right: 30px;">
+                        
+                    
+                    
+                      
+                                    <div class="card my-2 col-sm-5" style="width: 18rem; height: 350px; overflow: hidden; border-radius: 16px;">
+                                      
+                                      <div class="card-img-top -img-hover-khorma d-flex justify-content-between">
+                                        
+                                            <div class=""></div>
+                                            <div class="d-flex  flex-column my-3 -sabad-kharid">
+                                                <a href=""> <i class="bi bi-cart" style="font-size: 24px;"></i></a>
+                                                <a href=""><i class="bi bi-search" style="font-size: 24px;"></i></a>
+                                            </div>
+                                      </div>
+                                      <div class="card-body d-flex align-items-center justify-content-between flex-column"> 
+                                        <a href=""><h5 class="card-title ">خرما پیارم ارگانیک</h5></a>
+                                        <p class="card-text  " style="font-family: irancell; color: rgb(219, 124, 0);"> 25,000 -100,000تومان </p>
+                                      
+                                      </div>
+                                  </div>
+                            
+                            
+                                
+                            
+                                
+                                
+                                
+                                
+                             
+                                
+                    
+                        </div>
+                   
+                  
+                    
+                    
+              </div>
+        </div>
+
+
+
+
+        <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal"><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 1" aria-current="true"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 5"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 6"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 7"></span></div>
+       <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+ -->
+
+
+        <!-- kia/////////////////////// -->
+
+
+        
+        <div class="d-block d-sm-none">
+
+          <div class="swiper mySwipersm --parent my-4">
+            <div class="swiper-wrapper">
+            
+            
+              <div class="swiper-slide " style="width: 40%;">
+                <div class="card" style="width: 18rem; height: 350px;">
+                  <!-- <img src="img/pichgoshti.png" width="100%" class="card-img-top" alt="..."> -->
+                  <div class="card-img-top w-100 -img-hover-khorma d-flex justify-content-between">
+                                        
+                      <div class=""></div>
+                      <div class="d-flex  flex-column my-3 -sabad-kharid">
+                          <a href=""> <i class="bi bi-cart" style="font-size: 24px;"></i></a>
+                          <a href=""><i class="bi bi-search" style="font-size: 24px;"></i></a>
+                      </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="">
+
+                      <p class="card-text" > <h5 style="font-family: yekan;">خرما رطب</h5> </p>
+                    </div>
+                    
+                    <div class="d-flex justify-content-around text-secondary">
+                      <span  style="font-family: yekan;">امتیاز محصول</span>
+                      <div class="text-warning"><i class="bi bi-star"></i></div>
+                    </div>
+                    <div class="d-flex justify-content-around text-secondary">
+                      <span  style="font-family: yekan;">120/000/000 تومان </span>
+                      <div class=" text-danger"><i class="bi bi-cart"></i></div>
+                    </div>
+                   
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide " style="width: 40%;">
+                <div class="card" style="width: 18rem; height: 350px;">
+                  <!-- <img src="img/pichgoshti.png" width="100%" class="card-img-top" alt="..."> -->
+                  <div class="card-img-top w-100 -img-hover-khorma d-flex justify-content-between">
+                                        
+                      <div class=""></div>
+                      <div class="d-flex  flex-column my-3 -sabad-kharid">
+                          <a href=""> <i class="bi bi-cart" style="font-size: 24px;"></i></a>
+                          <a href=""><i class="bi bi-search" style="font-size: 24px;"></i></a>
+                      </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="">
+
+                      <p class="card-text" > <h5 style="font-family: yekan;">خرما رطب</h5> </p>
+                    </div>
+                    
+                    <div class="d-flex justify-content-around text-secondary">
+                      <span  style="font-family: yekan;">امتیاز محصول</span>
+                      <div class="text-warning"><i class="bi bi-star"></i></div>
+                    </div>
+                    <div class="d-flex justify-content-around text-secondary">
+                      <span  style="font-family: yekan;">120/000/000 تومان </span>
+                      <div class=" text-danger"><i class="bi bi-cart"></i></div>
+                    </div>
+                   
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide " style="width: 40%;">
+                <div class="card" style="width: 18rem; height: 350px;">
+                  <!-- <img src="img/pichgoshti.png" width="100%" class="card-img-top" alt="..."> -->
+                  <div class="card-img-top w-100 -img-hover-khorma d-flex justify-content-between">
+                                        
+                      <div class=""></div>
+                      <div class="d-flex  flex-column my-3 -sabad-kharid">
+                          <a href=""> <i class="bi bi-cart" style="font-size: 24px;"></i></a>
+                          <a href=""><i class="bi bi-search" style="font-size: 24px;"></i></a>
+                      </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="">
+
+                      <p class="card-text" > <h5 style="font-family: yekan;">خرما رطب</h5> </p>
+                    </div>
+                    
+                    <div class="d-flex justify-content-around text-secondary">
+                      <span  style="font-family: yekan;">امتیاز محصول</span>
+                      <div class="text-warning"><i class="bi bi-star"></i></div>
+                    </div>
+                    <div class="d-flex justify-content-around text-secondary">
+                      <span  style="font-family: yekan;">120/000/000 تومان </span>
+                      <div class=" text-danger"><i class="bi bi-cart"></i></div>
+                    </div>
+                   
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide " style="width: 40%;">
+                <div class="card" style="width: 18rem; height: 350px;">
+                  <!-- <img src="img/pichgoshti.png" width="100%" class="card-img-top" alt="..."> -->
+                  <div class="card-img-top w-100 -img-hover-khorma d-flex justify-content-between">
+                                        
+                      <div class=""></div>
+                      <div class="d-flex  flex-column my-3 -sabad-kharid">
+                          <a href=""> <i class="bi bi-cart" style="font-size: 24px;"></i></a>
+                          <a href=""><i class="bi bi-search" style="font-size: 24px;"></i></a>
+                      </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="">
+
+                      <p class="card-text" > <h5 style="font-family: yekan;">خرما رطب</h5> </p>
+                    </div>
+                    
+                    <div class="d-flex justify-content-around text-secondary">
+                      <span  style="font-family: yekan;">امتیاز محصول</span>
+                      <div class="text-warning"><i class="bi bi-star"></i></div>
+                    </div>
+                    <div class="d-flex justify-content-around text-secondary">
+                      <span  style="font-family: yekan;">120/000/000 تومان </span>
+                      <div class=" text-danger"><i class="bi bi-cart"></i></div>
+                    </div>
+                   
+                  </div>
+                </div>
+              </div>
+            
+              
+             
+            </div>
+            <div class="next --next"><i class="bi bi-arrow-left-square-fill"></i></div>
+            <div class="prev --prev"><i class="bi bi-arrow-right-square-fill"></i></div>
+          </div>
+
+
+        </div>
+
+
+
+
+
+      <!-- //////////////////// -->
+
+        <!-- tablighat hast in ghesmat -->
+       <div class=" d-lg-block d-none">
+        <div class="row d-flex justify-content-around w-100 my-3">
+          <div class="w-50  ">
+           <a href=""> <img src="img/راست-پایین-1-pp8rwfvopdny7cjdsf7h687plcrp3pjdt24d005nj4.webp" class="shadow " width="100%" alt=""></a>
+          </div>
+          <div class="w-50 ">
+           <a href=""> <img src="img/چپ-پایین-pou8mwtloki9xx3mqaojub9ruyjxymuovy0vxcqzj4.webp" class="shadow " width="100%" alt=""></a>
+          </div>
+        </div>
+       </div>
+
+        <!-- tablighat hast in ghesmat sm -->
+
+       <div class="d-lg-none d-block my-3">
+        <div class="row d-flex justify-content-around w-100 my-3">
+          <div class="col-12  d-flex justify-content-center">
+           <a href=""> <img src="img/sm.webp" class="shadow " width="100%" alt=""></a>
+          </div>
+        
+        </div>
+       </div>
+
+
+
+
+      <!-- in ghesmat brayae text mahsol jadid hast -->
+
+      
+
+      <div class="d-lg-block d-none my-2">
+        <div class="row w-100 d-flex my-5">
+            <div class="-neveshte-narenji d-flex justify-content-center">
+             <h5> محصولات جدید </h5>
+            </div>
+        </div>
+      </div>
+
+
+
+
+      <!-- in ghesmat brayae text mahsol jadid sm hast -->
+
+
+
+      <div class="d-lg-none d-block">
+
+        <div class="row w-100 d-flex my-5">
+            <div class=" d-flex justify-content-center"><h5> محصولات جدید</h5></div>
+        </div>
+      </div>
+
+
+      
+
+
+          <!-- in ghesmat vase slider jadid hast -->
+
+
+          <div id="carouselExampleControls" class="d-lg-block d-none carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active carousel-item-start">
+              
+              
+                <div class="row d-flex justify-content-around">
+                      <div class="card my-2 col-sm-5" style="width: 18rem; height: 350px; overflow: hidden; border-radius: 16px;">
+                        <!-- <img src="img/خرما.webp" alt="..."> -->
+                        <div class="card-img-top -img-hover-khorma d-flex justify-content-between">
+                          
+                          <div class=""></div>
+                          <div class="d-flex  flex-column my-3 -sabad-kharid">
+                          <a href=""> <i class="bi bi-cart" style="font-size: 24px;"></i></a>
+                            <a href=""><i class="bi bi-search" style="font-size: 24px;"></i></a>
+                          </div>
+                        </div>
+                        <div class="card-body d-flex align-items-center justify-content-between flex-column"> 
+                          <a href=""><h5 class="card-title ">خرما پیارم ارگانیک</h5></a>
+                          <p class="card-text  " style="font-family: irancell; color: rgb(219, 124, 0);"> 25,000 -100,000تومان </p>
+                        
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="card my-2 col-sm-5" style="width: 18rem; height: 350px; overflow: hidden; border-radius: 16px;">
+                      <!-- <img src="img/خرما.webp" alt="..."> -->
+                      <div class="card-img-top -img-hover-khorma d-flex justify-content-between">
+                        
+                        <div class=""></div>
+                        <div class="d-flex  flex-column my-3 -sabad-kharid">
+                        <a href=""> <i class="bi bi-cart" style="font-size: 24px;"></i></a>
+                          <a href=""><i class="bi bi-search" style="font-size: 24px;"></i></a>
+                        </div>
+                      </div>
+                      <div class="card-body d-flex align-items-center justify-content-between flex-column"> 
+                        <a href=""><h5 class="card-title ">خرما پیارم ارگانیک</h5></a>
+                        <p class="card-text  " style="font-family: irancell; color: rgb(219, 124, 0);"> 25,000 -100,000تومان </p>
+                      
+                      </div>
+                  </div>
+
+
+
+
+
+                    <div class="card my-2 col-sm-5" style="width: 18rem; height: 350px; overflow: hidden; border-radius: 16px;">
+                      <!-- <img src="img/خرما.webp" alt="..."> -->
+                      <div class="card-img-top -img-hover-khorma d-flex justify-content-between">
+                        
+                        <div class="">
+                        </div>
+                        <div class="d-flex  flex-column my-3 -sabad-kharid">
+                        <a href=""> <i class="bi bi-cart" style="font-size: 24px;"></i></a>
+                          <a href=""><i class="bi bi-search" style="font-size: 24px;"></i></a>
+                        </div>
+                      </div>
+                      <div class="card-body d-flex align-items-center justify-content-between flex-column"> 
+                        <a href=""><h5 class="card-title ">خرما پیارم ارگانیک</h5></a>
+                        <p class="card-text  " style="font-family: irancell; color: rgb(219, 124, 0);"> 25,000 -100,000تومان </p>
+                      
+                      </div>
+                  </div>
+
+
+
+                  <div class="card my-2" style="width: 18rem; height: 350px; overflow: hidden; border-radius: 16px;">
+                    <!-- <img src="img/خرما.webp" alt="..."> -->
+                    <div class="card-img-top -img-hover-khorma d-flex justify-content-between">
+                      
+                      <div class="">
+                      </div>
+                      <div class="d-flex  flex-column my-3 -sabad-kharid">
+                      <a href=""> <i class="bi bi-cart" style="font-size: 24px;"></i></a>
+                        <a href=""><i class="bi bi-search" style="font-size: 24px;"></i></a>
+                      </div>
+                    </div>
+                    <div class="card-body d-flex align-items-center justify-content-between flex-column"> 
+                      <a href=""><h5 class="card-title ">خرما پیارم ارگانیک</h5></a>
+                      <p class="card-text  " style="font-family: irancell; color: rgb(219, 124, 0);"> 25,000 -100,000تومان </p>
+                    
+                    </div>
+                </div>
+                    
+                    
+                
+                    
+                    
+                    </div>
+
+
+              </div>
+              <div class="carousel-item carousel-item-next carousel-item-start">
+                
+                <div class="row d-flex justify-content-around">
+                  <div class="card my-2" style="width: 18rem; height: 350px; overflow: hidden; border-radius: 16px;">
+                    <!-- <img src="img/خرما.webp" alt="..."> -->
+                    <div class="card-img-top -img-hover-khorma d-flex justify-content-between">
+                      
+                      <div class="">
+                      </div>
+                      <div class="d-flex  flex-column my-3 -sabad-kharid">
+                      <a href=""> <i class="bi bi-cart" style="font-size: 24px;"></i></a>
+                        <a href=""><i class="bi bi-search" style="font-size: 24px;"></i></a>
+                      </div>
+                    </div>
+                    <div class="card-body d-flex align-items-center justify-content-between flex-column"> 
+                      <a href=""><h5 class="card-title ">خرما پیارم ارگانیک</h5></a>
+                      <p class="card-text  " style="font-family: irancell; color: rgb(219, 124, 0);"> 25,000 -100,000تومان </p>
+                    
+                    </div>
+                </div>
+
+
+                <div class="card my-2" style="width: 18rem; height: 350px; overflow: hidden; border-radius: 16px;">
+                  <!-- <img src="img/خرما.webp" alt="..."> -->
+                  <div class="card-img-top -img-hover-khorma d-flex justify-content-between">
+                    
+                    <div class="">
+                    </div>
+                    <div class="d-flex  flex-column my-3 -sabad-kharid">
+                    <a href=""> <i class="bi bi-cart" style="font-size: 24px;"></i></a>
+                      <a href=""><i class="bi bi-search" style="font-size: 24px;"></i></a>
+                    </div>
+                  </div>
+                  <div class="card-body d-flex align-items-center justify-content-between flex-column"> 
+                    <a href=""><h5 class="card-title ">خرما پیارم ارگانیک</h5></a>
+                    <p class="card-text  " style="font-family: irancell; color: rgb(219, 124, 0);"> 25,000 -100,000تومان </p>
+                  
+                  </div>
+              </div>
+
+
+
+              <div class="card my-2" style="width: 18rem; height: 350px; overflow: hidden; border-radius: 16px;">
+                <!-- <img src="img/خرما.webp" alt="..."> -->
+                <div class="card-img-top -img-hover-khorma d-flex justify-content-between">
+                  
+                  <div class="">
+                  </div>
+                  <div class="d-flex  flex-column my-3 -sabad-kharid">
+                  <a href=""> <i class="bi bi-cart" style="font-size: 24px;"></i></a>
+                    <a href=""><i class="bi bi-search" style="font-size: 24px;"></i></a>
+                  </div>
+                </div>
+                <div class="card-body d-flex align-items-center justify-content-between flex-column"> 
+                  <a href=""><h5 class="card-title ">خرما پیارم ارگانیک</h5></a>
+                  <p class="card-text  " style="font-family: irancell; color: rgb(219, 124, 0);"> 25,000 -100,000تومان </p>
+                
+                </div>
+            </div>
+
+            <div class="card my-2" style="width: 18rem; height: 350px; overflow: hidden; border-radius: 16px;">
+              <!-- <img src="img/خرما.webp" alt="..."> -->
+              <div class="card-img-top -img-hover-khorma d-flex justify-content-between">
+                
+                <div class="">
+                </div>
+                <div class="d-flex  flex-column my-3 -sabad-kharid">
+                <a href=""> <i class="bi bi-cart" style="font-size: 24px;"></i></a>
+                  <a href=""><i class="bi bi-search" style="font-size: 24px;"></i></a>
+                </div>
+              </div>
+              <div class="card-body d-flex align-items-center justify-content-between flex-column"> 
+                <a href=""><h5 class="card-title ">خرما پیارم ارگانیک</h5></a>
+                <p class="card-text  " style="font-family: irancell; color: rgb(219, 124, 0);"> 25,000 -100,000تومان </p>
+              
+              </div>
+          </div>
+
+
+
+
+
+
+
+              </div>
+              
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          </div>
+
+
+           <!-- in ghesmat vase slider jadid sm hast -->
+
+           <div class="d-block d-sm-none">
+
+            <div class="swiper mySwipersm --parent my-4">
+              <div class="swiper-wrapper">
+              
+              
+                <div class="swiper-slide " style="width: 40%;">
+                  <div class="card" style="width: 18rem; height: 350px;">
+                    <!-- <img src="img/pichgoshti.png" width="100%" class="card-img-top" alt="..."> -->
+                    <div class="card-img-top w-100 -img-hover-khorma d-flex justify-content-between">
+                                          
+                        <div class=""></div>
+                        <div class="d-flex  flex-column my-3 -sabad-kharid">
+                            <a href=""> <i class="bi bi-cart" style="font-size: 24px;"></i></a>
+                            <a href=""><i class="bi bi-search" style="font-size: 24px;"></i></a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                      <div class="">
+  
+                        <p class="card-text" > <h5 style="font-family: yekan;">خرما رطب</h5> </p>
+                      </div>
+                      
+                      <div class="d-flex justify-content-around text-secondary">
+                        <span  style="font-family: yekan;">امتیاز محصول</span>
+                        <div class="text-warning"><i class="bi bi-star"></i></div>
+                      </div>
+                      <div class="d-flex justify-content-around text-secondary">
+                        <span  style="font-family: yekan;">120/000/000 تومان </span>
+                        <div class=" text-danger"><i class="bi bi-cart"></i></div>
+                      </div>
+                     
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide " style="width: 40%;">
+                  <div class="card" style="width: 18rem; height: 350px;">
+                    <!-- <img src="img/pichgoshti.png" width="100%" class="card-img-top" alt="..."> -->
+                    <div class="card-img-top w-100 -img-hover-khorma d-flex justify-content-between">
+                                          
+                        <div class=""></div>
+                        <div class="d-flex  flex-column my-3 -sabad-kharid">
+                            <a href=""> <i class="bi bi-cart" style="font-size: 24px;"></i></a>
+                            <a href=""><i class="bi bi-search" style="font-size: 24px;"></i></a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                      <div class="">
+  
+                        <p class="card-text" > <h5 style="font-family: yekan;">خرما رطب</h5> </p>
+                      </div>
+                      
+                      <div class="d-flex justify-content-around text-secondary">
+                        <span  style="font-family: yekan;">امتیاز محصول</span>
+                        <div class="text-warning"><i class="bi bi-star"></i></div>
+                      </div>
+                      <div class="d-flex justify-content-around text-secondary">
+                        <span  style="font-family: yekan;">120/000/000 تومان </span>
+                        <div class=" text-danger"><i class="bi bi-cart"></i></div>
+                      </div>
+                     
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide " style="width: 40%;">
+                  <div class="card" style="width: 18rem; height: 350px;">
+                    <!-- <img src="img/pichgoshti.png" width="100%" class="card-img-top" alt="..."> -->
+                    <div class="card-img-top w-100 -img-hover-khorma d-flex justify-content-between">
+                                          
+                        <div class=""></div>
+                        <div class="d-flex  flex-column my-3 -sabad-kharid">
+                            <a href=""> <i class="bi bi-cart" style="font-size: 24px;"></i></a>
+                            <a href=""><i class="bi bi-search" style="font-size: 24px;"></i></a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                      <div class="">
+  
+                        <p class="card-text" > <h5 style="font-family: yekan;">خرما رطب</h5> </p>
+                      </div>
+                      
+                      <div class="d-flex justify-content-around text-secondary">
+                        <span  style="font-family: yekan;">امتیاز محصول</span>
+                        <div class="text-warning"><i class="bi bi-star"></i></div>
+                      </div>
+                      <div class="d-flex justify-content-around text-secondary">
+                        <span  style="font-family: yekan;">120/000/000 تومان </span>
+                        <div class=" text-danger"><i class="bi bi-cart"></i></div>
+                      </div>
+                     
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide " style="width: 40%;">
+                  <div class="card" style="width: 18rem; height: 350px;">
+                    <!-- <img src="img/pichgoshti.png" width="100%" class="card-img-top" alt="..."> -->
+                    <div class="card-img-top w-100 -img-hover-khorma d-flex justify-content-between">
+                                          
+                        <div class=""></div>
+                        <div class="d-flex  flex-column my-3 -sabad-kharid">
+                            <a href=""> <i class="bi bi-cart" style="font-size: 24px;"></i></a>
+                            <a href=""><i class="bi bi-search" style="font-size: 24px;"></i></a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                      <div class="">
+  
+                        <p class="card-text" > <h5 style="font-family: yekan;">خرما رطب</h5> </p>
+                      </div>
+                      
+                      <div class="d-flex justify-content-around text-secondary">
+                        <span  style="font-family: yekan;">امتیاز محصول</span>
+                        <div class="text-warning"><i class="bi bi-star"></i></div>
+                      </div>
+                      <div class="d-flex justify-content-around text-secondary">
+                        <span  style="font-family: yekan;">120/000/000 تومان </span>
+                        <div class=" text-danger"><i class="bi bi-cart"></i></div>
+                      </div>
+                     
+                    </div>
+                  </div>
+                </div>
+              
+                
+               
+              </div>
+              <div class="next --next"><i class="bi bi-arrow-left-square-fill"></i></div>
+              <div class="prev --prev"><i class="bi bi-arrow-right-square-fill"></i></div>
+            </div>
+  
+  
+          </div>
+  
+  
+  
+            <!-- in ghesmat brayae text mahsol jadid hast -->
+
+      
+
+            <div class="d-lg-block d-none my-2">
+              <div class="row w-100 d-flex my-5">
+                  <div class="-neveshte-narenji d-flex justify-content-center">
+                  <h5> مجله سلامتی </h5>
+                  </div>
+              </div>
+            </div>
+
+
+            <!-- in ghesmat brayae text mahsol jadid sm hast -->
+
+      
+
+            <div class="d-lg-none d-block my-2">
+              <div class="row w-100 d-flex my-5">
+                  <div class="-neveshte-narenji d-flex justify-content-center">
+                  <h5> مجله سلامتی </h5>
+                  </div>
+              </div>
+            </div>
+
+
+
+
+            
+          <!-- in ghesmat vase slider jadid hast -->
+
+
+          <div id="carouselExampleControls" class="d-lg-block d-none carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+           
+              <div class="carousel-item carousel-item-next carousel-item-start">
+                
+                <div class="row d-flex justify-content-around">
+                
+                  <div class="card d-flex justify-content-center flex-column align-items " style="width: 18rem; border-radius: 16px;">
+                    <img src="img/انجیر.webp" class="card-img-top" alt="...">
+                    <div class="card-body d-flex justify-content-center flex-column align-items w-100">
+                      <h5 class="card-title  d-flex justify-content-center">خرید آنلاین آجیل شب عید چه مزایایی دارد؟</h5>
+                    
+                    </div>
+                  </div>
+
+
+                  <div class="card d-flex justify-content-center flex-column align-items " style="width: 18rem; border-radius: 16px;">
+                    <img src="img/فندوق.webp" class="card-img-top" alt="...">
+                    <div class="card-body d-flex justify-content-center flex-column align-items w-100">
+                      <h5 class="card-title  d-flex justify-content-center">خرید آنلاین آجیل شب عید چه مزایایی دارد؟</h5>
+                    
+                    </div>
+                  </div>
+
+
+
+                    <div class="card d-flex justify-content-center flex-column align-items " style="width: 18rem; border-radius: 16px;">
+                      <img src="img/خرما.webp" class="card-img-top" alt="...">
+                      <div class="card-body d-flex justify-content-center flex-column align-items w-100">
+                        <h5 class="card-title  d-flex justify-content-center">خرید آنلاین آجیل شب عید چه مزایایی دارد؟</h5>
+                      
+                      </div>
+                    </div>
+
+                  <div class="card d-flex justify-content-center flex-column align-items " style="width: 18rem; border-radius: 16px;">
+                    <img src="img/خرما.webp" class="card-img-top" alt="...">
+                    <div class="card-body d-flex justify-content-center flex-column align-items w-100">
+                      <h5 class="card-title  d-flex justify-content-center">خرید آنلاین آجیل شب عید چه مزایایی دارد؟</h5>
+                    
+                    </div>
+                  </div>
+
+
+
+
+
+
+              </div>
+              
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          </div>
+
+
+
+            <!-- in ghesmat vase slider jadid sm hast -->
+
+            <div class="d-block d-sm-none">
+
+              <div class="swiper mySwipersm --parent my-4">
+                <div class="swiper-wrapper">
+                
+                
+                  <div class="swiper-slide " style="width: 40%;">
+                    <div class="card" style="width: 18rem; height: 350px;">
+                      <!-- <img src="img/pichgoshti.png" width="100%" class="card-img-top" alt="..."> -->
+                      <div class="card-img-top w-100 -img-hover-khorma d-flex justify-content-between">
+                                            
+                          <div class=""></div>
+                          <div class="d-flex  flex-column my-3 -sabad-kharid">
+                              <a href=""> <i class="bi bi-cart" style="font-size: 24px;"></i></a>
+                              <a href=""><i class="bi bi-search" style="font-size: 24px;"></i></a>
+                          </div>
+                      </div>
+                      <div class="card-body">
+                        <div class="">
+    
+                          <p class="card-text" > <h5 style="font-family: yekan;">خرما رطب</h5> </p>
+                        </div>
+                        
+                        <div class="d-flex justify-content-around text-secondary">
+                          <span  style="font-family: yekan;">امتیاز محصول</span>
+                          <div class="text-warning"><i class="bi bi-star"></i></div>
+                        </div>
+                        <div class="d-flex justify-content-around text-secondary">
+                          <span  style="font-family: yekan;">120/000/000 تومان </span>
+                          <div class=" text-danger"><i class="bi bi-cart"></i></div>
+                        </div>
+                       
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide " style="width: 40%;">
+                    <div class="card" style="width: 18rem; height: 350px;">
+                      <!-- <img src="img/pichgoshti.png" width="100%" class="card-img-top" alt="..."> -->
+                      <div class="card-img-top w-100 -img-hover-khorma d-flex justify-content-between">
+                                            
+                          <div class=""></div>
+                          <div class="d-flex  flex-column my-3 -sabad-kharid">
+                              <a href=""> <i class="bi bi-cart" style="font-size: 24px;"></i></a>
+                              <a href=""><i class="bi bi-search" style="font-size: 24px;"></i></a>
+                          </div>
+                      </div>
+                      <div class="card-body">
+                        <div class="">
+    
+                          <p class="card-text" > <h5 style="font-family: yekan;">خرما رطب</h5> </p>
+                        </div>
+                        
+                        <div class="d-flex justify-content-around text-secondary">
+                          <span  style="font-family: yekan;">امتیاز محصول</span>
+                          <div class="text-warning"><i class="bi bi-star"></i></div>
+                        </div>
+                        <div class="d-flex justify-content-around text-secondary">
+                          <span  style="font-family: yekan;">120/000/000 تومان </span>
+                          <div class=" text-danger"><i class="bi bi-cart"></i></div>
+                        </div>
+                       
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide " style="width: 40%;">
+                    <div class="card" style="width: 18rem; height: 350px;">
+                      <!-- <img src="img/pichgoshti.png" width="100%" class="card-img-top" alt="..."> -->
+                      <div class="card-img-top w-100 -img-hover-khorma d-flex justify-content-between">
+                                            
+                          <div class=""></div>
+                          <div class="d-flex  flex-column my-3 -sabad-kharid">
+                              <a href=""> <i class="bi bi-cart" style="font-size: 24px;"></i></a>
+                              <a href=""><i class="bi bi-search" style="font-size: 24px;"></i></a>
+                          </div>
+                      </div>
+                      <div class="card-body">
+                        <div class="">
+    
+                          <p class="card-text" > <h5 style="font-family: yekan;">خرما رطب</h5> </p>
+                        </div>
+                        
+                        <div class="d-flex justify-content-around text-secondary">
+                          <span  style="font-family: yekan;">امتیاز محصول</span>
+                          <div class="text-warning"><i class="bi bi-star"></i></div>
+                        </div>
+                        <div class="d-flex justify-content-around text-secondary">
+                          <span  style="font-family: yekan;">120/000/000 تومان </span>
+                          <div class=" text-danger"><i class="bi bi-cart"></i></div>
+                        </div>
+                       
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide " style="width: 40%;">
+                    <div class="card" style="width: 18rem; height: 350px;">
+                      <!-- <img src="img/pichgoshti.png" width="100%" class="card-img-top" alt="..."> -->
+                      <div class="card-img-top w-100 -img-hover-khorma d-flex justify-content-between">
+                                            
+                          <div class=""></div>
+                          <div class="d-flex  flex-column my-3 -sabad-kharid">
+                              <a href=""> <i class="bi bi-cart" style="font-size: 24px;"></i></a>
+                              <a href=""><i class="bi bi-search" style="font-size: 24px;"></i></a>
+                          </div>
+                      </div>
+                      <div class="card-body">
+                        <div class="">
+    
+                          <p class="card-text" > <h5 style="font-family: yekan;">خرما رطب</h5> </p>
+                        </div>
+                        
+                        <div class="d-flex justify-content-around text-secondary">
+                          <span  style="font-family: yekan;">امتیاز محصول</span>
+                          <div class="text-warning"><i class="bi bi-star"></i></div>
+                        </div>
+                        <div class="d-flex justify-content-around text-secondary">
+                          <span  style="font-family: yekan;">120/000/000 تومان </span>
+                          <div class=" text-danger"><i class="bi bi-cart"></i></div>
+                        </div>
+                       
+                      </div>
+                    </div>
+                  </div>
+                
+                  
+                 
+                </div>
+                <div class="next --next"><i class="bi bi-arrow-left-square-fill"></i></div>
+                <div class="prev --prev"><i class="bi bi-arrow-right-square-fill"></i></div>
+              </div>
+    
+    
+            </div>
+    
+    
+    
+  
+        
+          <!-- in ghesmat braye footer mibashad -->
+
+          <footer>
+            <div class="d-none d-lg-block">
+              <div class="row w-100 my-3" style="height: 450px; background-color: #000; color: #eee;">
+                <div class="d-flex justify-content-center flex-column" style="width: 20%; height: 100%;">
+                  <img src="img/logoshab.png" width="80%" alt="">
+                  <p style="color: #eee;">سال‌ها تجربه و تخصص در حوزه آجیل و خشکبار را با خودمان آوردیم به فروشگاهی آنلاین و مدرن. هدف از تاسیس را هم گذاشتیم، کیفیت و دست‌چین بودن محصولات، تنوع بالا و همچنین ارسال رایگان و سریع برای شما مشتریان. حضور شما در کنار ما، نام بارجیل را روز به روز بیشتر هم‌تراز واژه «کیفیت» قرار می‌دهد.</p>
+                  <h6 style="text-align: right; color: #ffffff;"><i class="bi bi-telephone-fill"></i> 021-91300576</h6>
+                </div>
+  
+               
+  
+  
+  
+                <div class="d-flex justify-content-between flex-column" style="width: 20%; height: 100%;">
+                  
+                  <ul class=" align-items-center text-center list-unstyled ">
+                    <div class="row w-100 d-flex my-5" style="height: 10px;">
+                      <div class="-neveshte-narenji d-flex justify-content-center">
+                      <h5 > دسترسی سریع </h5>
+                      </div>
+                  </div>
+                   <a style="color: #eee;" href="">   <li class="my-3">فروشگاه</li>     </a> 
+                   <a style="color: #eee;" href="">    <li class="my-3">سفارش های کسب و کار</li>    </a> 
+                   <a style="color: #eee;" href="">    <li class="my-3"> بسته های کادویی</li>    </a> 
+                   <a style="color: #eee;" href="">    <li class="my-3"> عمده فروشی </li>    </a> 
+                  <a style="color: #eee;" href="">    <li class="my-3"> بسته بندی های بارجیل </li>    </a>  
+                  </ul>
+                 
+                </div>
+  
+  
+  
+  
+  
+                <div class="d-flex justify-content-between flex-column" style="width: 20%; height: 100%;">
+                  
+                  <ul class=" text-center list-unstyled ">
+                    <div class="row w-100 d-flex my-5" style="height: 10px;">
+                      <div class="-neveshte-narenji d-flex justify-content-center">
+                      <h5 > خدمات ما </h5>
+                      </div>
+                  </div>
+                   <a style="color: #eee;" href="">   <li class="my-3">بسته های آجیل بارجیل</li>     </a> 
+                   <a style="color: #eee;" href="">    <li class="my-3">آجیل شب یلدا</li>    </a> 
+                   <a style="color: #eee;" href="">    <li class="my-3">آجیل سرزمین عجایب</li>    </a> 
+                   <a style="color: #eee;" href="">    <li class="my-3">خرید خشکبار</li>    </a> 
+                  <a style="color: #eee;" href="">    <li class="my-3"> خرید آجیل مخلوط</li>    </a>  
+                  </ul>
+                 
+                </div>
+  
+  
+  
+                <div class="d-flex justify-content-between flex-column" style="width: 20%; height: 100%;">
+                  
+                  <ul class=" text-center list-unstyled ">
+                    <div class="row w-100 d-flex my-5" style="height: 10px;">
+                      <div class="-neveshte-narenji d-flex justify-content-center">
+                      <h5 >همراه با بارجیل </h5>
+                      </div>
+                  </div>
+                   <a style="color: #eee;" href="">   <li class="my-3">همکاری با ما </li>     </a> 
+                   <a style="color: #eee;" href="">    <li class="my-3">تماس با ما </li>    </a> 
+                   <a style="color: #eee;" href="">    <li class="my-3">فرصت های شغلی </li>    </a> 
+                   <a style="color: #eee;" href="">    <li class="my-3">سفارش اختصاصی </li>    </a> 
+                 
+                  <div class="">
+                    <div class="-tamas-logo d-flex justify-content-end align-items-center text-secondary">
+                      <a href="https://instagram.com">
+                       <button type="button" class="btn mx-1 -lal" style="background-color: rgb(255, 123, 0); color: #eee;">
+                           <i class="bi bi-instagram"></i>
+                         </button>
+                      </a>
+                      <a href="https://facebook.com">
+                       <button type="button" class="btn mx-1 -lal" style="background-color: rgb(167, 0, 153); color: #eee;">
+                           <i class="bi bi-facebook"></i>
+                         </button>
+                      </a>
+                      <a href="https://whatsapp.com">
+                       <button type="button" class="btn mx-1 -lal" style="background-color: green; color: #eee;">
+                           <i class="bi bi-whatsapp" ></i>
+                         </button>
+                      </a>
+                      <a href="https://telegram.com">
+                       <button type="button" class="btn mx-1 -lal"  style="background-color: rgb(0, 147, 167); color: #eee;">
+                           <i class="bi bi-telegram"></i>
+                         </button>
+                      </a>
+                     
+                  </div>
+                  </div>
+                  </ul>
+                 
+                </div>
+  
+  
+  
+                <div class="d-flex justify-content-between flex-column" style="width: 20%; height: 100%;">
+                  
+                  <ul class=" text-center list-unstyled ">
+                    <div class="row w-100 d-flex my-5" style="height: 10px;">
+                      <div class="-neveshte-narenji d-flex justify-content-center">
+                      <h5 > خدمات مشتریان </h5>
+                      </div>
+                  </div>
+                   <a style="color: #eee;" href="">   <li class="my-3">پرسش‌های متداول</li>     </a> 
+                   <a style="color: #eee;" href="">    <li class="my-3">رویه های بازگردانی کالا</li>    </a> 
+                   <a style="color: #eee;" href="">    <li class="my-3">شرایط استفاده </li>    </a> 
+                   <a style="color: #eee;" href="">    <li class="my-3">حریم خصوصی</li>    </a> 
+                  <a style="color: #eee;" href="">    <li class="my-3">شیوه های پرداخت  </li>    </a>  
+                  </ul>
+                 
+                </div>
+  
+  
+  
+  
+  
+  
+              </div>
+            </div>
+           
+
+
+
+             <!-- in ghesmat braye footer sm mibashad -->
+             <div class="d-lg-none d-block">
+              <div class="row w-100 my-3" style="height: 100%; background-color: #000; color: #eee;">
+                <div class="d-flex justify-content-center align-items-center flex-column" style="width:100%; height: 100%;">
+                  <img src="img/logoshab.png" width="50%" alt="">
+                  <p style="color: #eee;">سال‌ها تجربه و تخصص در حوزه آجیل و خشکبار را با خودمان آوردیم به فروشگاهی آنلاین و مدرن. هدف از تاسیس را هم گذاشتیم، کیفیت و دست‌چین بودن محصولات، تنوع بالا و همچنین ارسال رایگان و سریع برای شما مشتریان. حضور شما در کنار ما، نام بارجیل را روز به روز بیشتر هم‌تراز واژه «کیفیت» قرار می‌دهد.</p>
+                  <h6 style="text-align: right; color: #ffffff;"><i class="bi bi-telephone-fill"></i> 021-91300576</h6>
+                </div>
+                <div class="d-flex justify-content-between flex-column" style="width: 100%; height: 100%;">
+                    
+                  <ul class=" align-items-center text-center list-unstyled ">
+                    <div class="row w-100 d-flex my-5" style="height: 10px;">
+                      <div class="-neveshte-narenji d-flex justify-content-center">
+                      <h5 > دسترسی سریع </h5>
+                      </div>
+                  </div>
+                   <a style="color: #eee;" href="">   <li class="my-3">فروشگاه</li>     </a> 
+                   <a style="color: #eee;" href="">    <li class="my-3">سفارش های کسب و کار</li>    </a> 
+                   <a style="color: #eee;" href="">    <li class="my-3"> بسته های کادویی</li>    </a> 
+                   <a style="color: #eee;" href="">    <li class="my-3"> عمده فروشی </li>    </a> 
+                  <a style="color: #eee;" href="">    <li class="my-3"> بسته بندی های بارجیل </li>    </a>  
+                  </ul>
+  
+  
+                  <div class="d-flex justify-content-between flex-column" style="width: 100%; height: 100%;">
+                    
+                    <ul class=" text-center list-unstyled ">
+                      <div class="row w-100 d-flex my-5" style="height: 10px;">
+                        <div class="-neveshte-narenji d-flex justify-content-center">
+                        <h5 > خدمات ما </h5>
+                        </div>
+                    </div>
+                     <a style="color: #eee;" href="">   <li class="my-3">بسته های آجیل بارجیل</li>     </a> 
+                     <a style="color: #eee;" href="">    <li class="my-3">آجیل شب یلدا</li>    </a> 
+                     <a style="color: #eee;" href="">    <li class="my-3">آجیل سرزمین عجایب</li>    </a> 
+                     <a style="color: #eee;" href="">    <li class="my-3">خرید خشکبار</li>    </a> 
+                    <a style="color: #eee;" href="">    <li class="my-3"> خرید آجیل مخلوط</li>    </a>  
+                    </ul>
+                   
+                  </div>
+    
+    
+    
+                  <div class="d-flex justify-content-between flex-column" style="width: 100%; height: 100%;">
+                    
+                    <ul class=" text-center list-unstyled">
+                      <div class="row w-100 d-flex my-5" style="height: 10px;">
+                        <div class="-neveshte-narenji d-flex justify-content-center">
+                        <h5 >همراه با بارجیل </h5>
+                        </div>
+                    </div>
+                     <a style="color: #eee;" href="">   <li class="my-3">همکاری با ما </li>     </a> 
+                     <a style="color: #eee;" href="">    <li class="my-3">تماس با ما </li>    </a> 
+                     <a style="color: #eee;" href="">    <li class="my-3">فرصت های شغلی </li>    </a> 
+                     <a style="color: #eee;" href="">    <li class="my-3">سفارش اختصاصی </li>    </a> 
+                   
+                    <div class="">
+                      <div class="-tamas-logo text-secondary">
+                        <a href="https://instagram.com">
+                         <button type="button" class="btn mx-1 -lal" style="background-color: rgb(255, 123, 0); color: #eee;">
+                             <i class="bi bi-instagram"></i>
+                           </button>
+                        </a>
+                        <a href="https://facebook.com">
+                         <button type="button" class="btn mx-1 -lal" style="background-color: rgb(167, 0, 153); color: #eee;">
+                             <i class="bi bi-facebook"></i>
+                           </button>
+                        </a>
+                        <a href="https://whatsapp.com">
+                         <button type="button" class="btn mx-1 -lal" style="background-color: green; color: #eee;">
+                             <i class="bi bi-whatsapp" ></i>
+                           </button>
+                        </a>
+                        <a href="https://telegram.com">
+                         <button type="button" class="btn mx-1 -lal"  style="background-color: rgb(0, 147, 167); color: #eee;">
+                             <i class="bi bi-telegram"></i>
+                           </button>
+                        </a>
+                       
+                    </div>
+                    </div>
+                    </ul>
+                   
+                  </div>
+    
+    
+    
+                  <div class="d-flex justify-content-between flex-column" style="width: 100%; height: 100%;">
+                    
+                    <ul class=" text-center list-unstyled ">
+                      <div class="row w-100 d-flex my-5" style="height: 10px;">
+                        <div class="-neveshte-narenji d-flex justify-content-center">
+                        <h5 > خدمات مشتریان </h5>
+                        </div>
+                    </div>
+                     <a style="color: #eee;" href="">   <li class="my-3">پرسش‌های متداول</li>     </a> 
+                     <a style="color: #eee;" href="">    <li class="my-3">رویه های بازگردانی کالا</li>    </a> 
+                     <a style="color: #eee;" href="">    <li class="my-3">شرایط استفاده </li>    </a> 
+                     <a style="color: #eee;" href="">    <li class="my-3">حریم خصوصی</li>    </a> 
+                    <a style="color: #eee;" href="">    <li class="my-3">شیوه های پرداخت  </li>    </a>  
+                    </ul>
+                   
+                  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <!-- ///////////// -->
+  
+               </div>
+  
+  
+               
+              
+               
+              </div>
+
+             </div>
+             
+
+          </footer>
+
+
+          <!-- navbar sm hast in ghesmat -->
+        <div class=" d-lg-none d-block" style="z-index: 1000; position: fixed; bottom: 0; width: 100%;">
+          <div class="row d-flex justify-content-around " style="width: 100%; height: 50px; background-color: rgb(255, 255, 255); ">
+            
+
+            
+            <div class="w-25 d-flex justify-content-center flex-column align-items-center ">
+              <a href="" class="d-flex justify-content-center flex-column align-items-center">
+                <i class="bi bi-gear"></i>
+                <p>جستجو</p>
+              </a>
+             
+            </div>
+            <div class="w-25 d-flex justify-content-center flex-column align-items-center ">
+              <a href="" class="d-flex justify-content-center flex-column align-items-center">
+                <i class="bi bi-person"></i>
+                <p>حساب کاربری</p>
+              </a>
+             
+            </div>
+            <div class="w-25 d-flex justify-content-center flex-column align-items-center ">
+              <a href="" class="d-flex justify-content-center flex-column align-items-center">
+                <i class="bi bi-bag-plus"></i>
+                <p>خرید</p>
+              </a>
+              
+            </div>
+            <div class="w-25 d-flex justify-content-center flex-column align-items-center ">
+              <a href="" class="d-flex justify-content-center flex-column align-items-center">
+                <i class="bi bi-shop"></i>
+                <p>فروشگاه</p>
+              </a>
+              
+            </div>
+
+          </div>
+        </div>
+
+
+
+
+
+
+   </div>
+
+   <script src="js/index.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+   <script>
+     var swiper = new Swiper(".mySwiper", {
+       slidesPerView: 5,
+       spaceBetween: 10,
+       slidesPerGroup: 5,
+       loop: true,
+       loopFillGroupWithBlank: true,
+       pagination: {
+         el: ".swiper-pagination",
+         clickable: true,
+       },
+       navigation: {
+         nextEl: ".next",
+         prevEl: ".prev",
+       },
+     });
+   </script>
+
+<script>
+ var swiper = new Swiper(".mySwipersm", {
+   slidesPerView: 2,
+   spaceBetween: 10,
+   slidesPerGroup: 2,
+   loop: true,
+   loopFillGroupWithBlank: true,
+   pagination: {
+     el: ".swiper-pagination",
+     clickable: true,
+   },
+   navigation: {
+     nextEl: ".next",
+     prevEl: ".prev",
+   },
+ });
+</script>
+
+   <!-- /////kia balast -->
+
+   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+
+
+
+</body>
+</html>
